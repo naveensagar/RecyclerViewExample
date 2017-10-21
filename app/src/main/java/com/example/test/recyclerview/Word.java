@@ -4,7 +4,7 @@ package com.example.test.recyclerview;
  * Created by naveen on 21/10/17.
  */
 
-public class ListItem {
+public class Word {
     // Default translation of the word
     private String mDefaultTranslation;
 
@@ -32,7 +32,7 @@ public class ListItem {
      *
      * @param audioResourceId is resourceId of the audio file of that words Miwok translation
      */
-    public ListItem(String defaultTranslation, String miwokTranslation, int audioResourceId) {
+    public Word(String defaultTranslation, String miwokTranslation, int audioResourceId) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
         mAudioResourceId = audioResourceId;
@@ -49,7 +49,7 @@ public class ListItem {
      *
      * @param audioResourceId is resourceId of the audio file of that words Miwok translation
      */
-    public ListItem(String defaultTranslation, String miwokTranslation, int imageResourceId, int audioResourceId) {
+    public Word(String defaultTranslation, String miwokTranslation, int imageResourceId, int audioResourceId) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
         mImageResourceId = imageResourceId;
